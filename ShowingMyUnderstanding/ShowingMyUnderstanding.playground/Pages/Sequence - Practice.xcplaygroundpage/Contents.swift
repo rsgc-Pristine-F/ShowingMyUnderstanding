@@ -30,9 +30,20 @@ import PlaygroundSupport
 let canvas = Canvas(width: 300, height: 300)
 
 // Replace this comment and add your code below...
-canvas.defaultLineWidth = 50
-//canvas.drawLine(fromX: 50, fromY: 50, toX: 250, toY: 250)
-canvas.drawLine(fromX: 100, fromY: 100, toX: 200, toY: 200, lineWidth: 50, capStyle: .roundLineCapStyle)
+canvas.defaultLineWidth = 70
+//black
+canvas.drawEllipse(centreX: 150, centreY: 80, width: 70, height: 70)
+//blues
+canvas.drawEllipse(centreX: 80, centreY: 80, width: 70, height: 70)
+canvas.drawEllipse(centreX: 80, centreY: 220, width: 70, height: 70)
+canvas.drawLine(fromX: 80, fromY: 107, toX: 80, toY: 193)
+canvas.drawLine(fromX: 80, fromY: 220, toX: 150, toY: 80)
+//red
+canvas.drawEllipse(centreX: 220, centreY: 80, width: 70, height: 70)
+canvas.drawEllipse(centreX: 220, centreY: 220, width: 70, height: 70)
+canvas.drawLine(fromX: 220, fromY: 107, toX: 220, toY: 193)
+canvas.drawLine(fromX: 220, fromY: 220, toX: 150, toY: 80)
+
 
 /*:
  ## Template code
